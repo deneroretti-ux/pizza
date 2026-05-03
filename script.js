@@ -1,8 +1,8 @@
 const produtos = [
-  { n: "Calabresa", p: 15 },
-  { n: "Muçarela", p: 15 },
-  { n: "Presunto e Muçarela", p: 15 },
-  { n: "Frango Catupiry", p: 15 }
+  { n: "Calabresa", p: 18 },
+  { n: "Muçarela", p: 18 },
+  { n: "Presunto e Muçarela", p: 18 },
+  { n: "Frango Catupiry", p: 18 }
 ];
 
 let pedido = {};
