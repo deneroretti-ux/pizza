@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pizza</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Festa Franciscana</h1>
+<h2>Barraca da Pizza</h2>
+
+<div id="produtos"></div>
+
+<textarea id="obs" placeholder="Observação"></textarea>
+
+<div>
+<label><input type="radio" name="status" value="PAGO" checked> Pago</label>
+<label><input type="radio" name="status" value="PENDENTE"> Pendente</label>
+</div>
+
+<h2>Total: R$ <span id="total">0</span></h2>
+
+<button onclick="finalizar()">Finalizar</button>
+
+<script src="script.js"></script>
+</body>
+</html>
